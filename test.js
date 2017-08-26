@@ -1,12 +1,21 @@
 /* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
 import {test} from "tap"
 
-import {{NAME}} from "./source.js"
+import initial from "./source.js"
 
 test(({same, end}) => {
   same(
-    {{NAME}}(true),
-    false
+    initial(["a", "b", "c"]),
+    ["a", "b"]
+  )
+
+  end()
+})
+
+test(({same, end}) => {
+  same(
+    initial("abc"),
+    "ab"
   )
 
   end()
