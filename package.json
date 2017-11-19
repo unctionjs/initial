@@ -57,7 +57,7 @@
     "tap": "10.7.2"
   },
   "dependencies": {
-    "@unction/droplast": "1.41.0"
+    "@unction/droplast": "1.42.0"
   },
   "files": [
     "transpiled/index.js"
