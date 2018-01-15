@@ -1,9 +1,9 @@
-/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
+/* eslint-disable flowtype/require-parameter-type */
 import {test} from "tap"
 
 import initial from "./"
 
-test(({same, end}) => {
+test("Array", ({same, end}) => {
   same(
     initial(["a", "b", "c"]),
     ["a", "b"]
@@ -12,7 +12,7 @@ test(({same, end}) => {
   end()
 })
 
-test(({same, end}) => {
+test("String", ({same, end}) => {
   same(
     initial("abc"),
     "ab"
