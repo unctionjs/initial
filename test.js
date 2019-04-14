@@ -1,22 +1,22 @@
 /* eslint-disable flowtype/require-parameter-type */
-import {test} from "tap"
+import {test} from "tap";
 
-import initial from "./"
+import initial from "./";
 
 test("Array", ({same, end}) => {
   same(
     initial(["a", "b", "c"]),
     ["a", "b"]
-  )
+  );
 
-  end()
-})
+  end();
+});
 
 test("String", ({same, end}) => {
   same(
     initial("abc"),
     "ab"
-  )
+  );
 
-  end()
-})
+  end();
+});
