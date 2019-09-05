@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> (ArrayType | string) => (ArrayType | string)
+> OrderedEnumerableType<A> => OrderedEnumerableType<A>
 
 Returns all but the last item in an ordered list.
 

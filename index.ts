@@ -1,5 +1,7 @@
-/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type, no-magic-numbers */
+/* eslint-disable no-magic-numbers */
 import dropLast from "@unction/droplast";
-export default function initial (orderedList) {
+import {OrderedEnumerableType} from "./types";
+
+export default function initial<A> (orderedList: OrderedEnumerableType<A>): OrderedEnumerableType<A> {
   return dropLast(1)(orderedList);
 }
