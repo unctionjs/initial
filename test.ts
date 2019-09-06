@@ -1,5 +1,5 @@
 /* eslint-disable flowtype/require-parameter-type */
-import initial from "./index.ts";
+import initial from "./index";
 
 test("Array", () => {
   expect(initial(["a", "b", "c"])).toEqual(["a", "b"]);
