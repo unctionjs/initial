@@ -53,7 +53,7 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "@unction/droplast": "11.7.2"
+    "@unction/droplast": "11.9.0"
   },
   "files": [
     "index.ts",
